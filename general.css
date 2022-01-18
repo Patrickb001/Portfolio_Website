@@ -1,0 +1,54 @@
+.container {
+  max-width: 125rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.grid {
+  display: grid;
+}
+
+.grid--8-cols {
+  grid-template-columns: repeat(8, 1fr);
+}
+
+.flex-center {
+  justify-content: center;
+}
+
+.span-2 {
+  grid-column: 1 / -1;
+}
+
+/* .marg-vert {
+  margin-top: 3.6rem;
+  margin-bottom: 9.6rem;
+} */
+
+.heading-primary {
+  font-size: 4.8rem;
+  line-height: 0.9;
+  margin-bottom: 4.8rem;
+  letter-spacing: -0.5px;
+}
+
+.heading-secondary {
+  text-transform: uppercase;
+  color: #307fc8;
+  letter-spacing: 2.4px;
+  font-size: 1.4rem;
+  margin-bottom: 6.4rem;
+}
+
+.btn:link,
+.btn:visited {
+  font-weight: 600;
+  color: #222;
+  font-size: 1.6rem;
+  padding: 1.6rem 3.2rem;
+  border-radius: 9px;
+}

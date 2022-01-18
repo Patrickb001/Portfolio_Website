@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="general.css" />
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+
+    <script
+      nomodule=""
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <script
+      defer
+      src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
+    ></script>
+
+    <script defer src="script.js"></script>
+
+    <title>Portfolio &mdash; Landing Page</title>
+  </head>
+  <body>
+    <header class="header">
+      <a href="#" class="link temp-logo header-nav-link"> patprograms </a>
+
+      <nav class="header-nav">
+        <ul class="header-nav-list">
+          <li><a href="#projects" class="link header-nav-link">Projects</a></li>
+          <li><a href="#skills" class="link header-nav-link">Skills</a></li>
+          <li><a href="#about" class="link header-nav-link">About</a></li>
+          <li><a href="#contact" class="link header-nav-link">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div>
+        <!-- <img
+          class="illustration"
+          id="illustration1"
+          src="img/undraw_envelope_re_f5j4.svg"
+          alt="Illustration of two people working together on a whiteboard"
+        /> -->
+        <!-- <img
+          class="illustration"
+          id="illustration2"
+          src="img/undraw_developer_activity_re_39tg.svg"
+          alt="Illustration of developer working on a program"
+        /> -->
+      </div>
+
+      <section class="section-intro grid grid--8-cols">
+        <div id="illustration1">
+          <img
+            class="illustration"
+            src="img/undraw_envelope_re_f5j4.svg"
+            alt="Illustration of two people working together on a whiteboard"
+          />
+        </div>
+        <!-- <div class="intro-header">
+          <h1 class="heading-primary">
+            Hello! <br />My name is Patrick, and I'm a front-end developer.
+          </h1>
+        </div> -->
+        <div class="intro-text-box">
+          <h1 class="heading-primary">
+            Hello! <br />My name is Patrick, and I'm a front-end developer.
+          </h1>
+          <p class="intro-text">
+            Welcome to my portfolio page. Scroll through my portfolio page to
+            view some of the applications and websites I built utilizing HTML,
+            CSS and JavaScript.
+          </p>
+          <div class="intro-btn-box">
+            <a class="link btn intro-btn" href="#contact">Contact Me</a>
+            <a class="link btn btn-outline" href="#work">Learn more</a>
+          </div>
+        </div>
+        <!-- <div class="intro-img-box">
+          <img
+            class="intro-img"
+            src="img/code-example.png"
+            alt="Computer code displayed on screen"
+          />
+        </div> -->
+      </section>
+
+      <section class="section-work" id="projects">
+        <div class="container">
+          <h2 class="heading-secondary">Projects</h2>
+        </div>
+        <div class="container work--grid">
+          <div class="work-img-box">
+            <img
+              class="work-img"
+              src="img/omnifood-resized.png"
+              alt="Picture of Omnifood hero section"
+            />
+          </div>
+          <div class="work-text-box">
+            <p class="work-program">Html/Css/JavaScript</p>
+            <p class="work-title">Omnifood Landing Page</p>
+            <p class="work-description">
+              I built this landing page with HTML/CSS and vanilla JavaScript.
+              This landing page displays the food company omnifood! Best known
+              for its 365-days-per-year food delivery service. <br />
+              <br />
+              Disclaimer: The Omnifood project is just made for my portfolio and
+              not a real company.
+            </p>
+            <a
+              href="https://omnifood-pprograms.netlify.app/"
+              class="work-link"
+              target="_blank"
+              >Visit here</a
+            >
+          </div>
+          <div class="work-text-box">
+            <p class="work-program">JavaScript</p>
+            <p class="work-title">Forkify Application</p>
+            <p class="work-description">
+              The forkify application is an application that is used for anyone
+              who wants to search for all their favorite recipes in one place.
+              Forkify has over 1,000,000+ recipes for you to search up. After
+              searching and selecting your favorite dish, a display shows you
+              all the ingredients needed and if you need further instruction
+              there is a button you can follow to get more instruction on how
+              the dish is made.
+            </p>
+            <a
+              href="https://forkify-pprograms.netlify.app/"
+              class="work-link"
+              target="_blank"
+              >Visit here</a
+            >
+          </div>
+          <div class="work-img-box">
+            <img
+              class="work-img"
+              src="img/forkify.png"
+              alt="Forkify application searching up a pizza recipe"
+            />
+          </div>
+          <div class="work-img-box">
+            <img
+              class="work-img"
+              src="img/mapty.png"
+              alt="Mapty application displaying a map of a city"
+            />
+          </div>
+          <div class="work-text-box">
+            <p class="work-program">JavaScript</p>
+            <p class="work-title">Mapty Application</p>
+            <p class="work-description">
+              The mapty application targets users who want to keep track of
+              their workouts in their nearby area. You can open the mapty
+              application, and after allowing the app to use your location you
+              can see the city you are in and get started. If you want to log
+              your running or cycling workouts you can by clicking a spot on the
+              map where you workout and input the information into the form.
+              Once you submit the form it is saved on the application and you
+              can keep track over time of your workouts this way!
+            </p>
+            <a
+              href="https://mapty-pprograms.netlify.app/"
+              class="work-link"
+              target="_blank"
+              >Visit here</a
+            >
+          </div>
+          <div class="view-more-link span-2">
+            <a
+              class="work-link"
+              href="https://github.com/Patrickb001"
+              target="_blank"
+            >
+              View my other my projects here!</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <section class="section-skills" id="skills">
+        <div class="container">
+          <h2 class="heading-secondary">Skills</h2>
+
+          <div class="skills-box">
+            <div class="card-box">
+              <span>
+                <ion-icon class="icon" name="logo-javascript"></ion-icon>
+              </span>
+              <p class="card-title">Javascript</p>
+              <p class="card-description">
+                I have been learning JavaScript for the past few months and I'm
+                able to display it with the projects that I've built. I learned
+                the fundamentals first, including objects, strings, arrays and
+                booleans. Throughout my JavaScript course I also learned how to
+                write code with the focus of OOP in mind, I've used modules and
+                classes to write code as well as the model-view-controller
+                architecture.
+              </p>
+            </div>
+            <div class="card-box">
+              <span>
+                <ion-icon class="icon" name="logo-html5"></ion-icon>
+                <ion-icon class="icon" name="logo-css3"></ion-icon>
+              </span>
+              <p class="card-title">HTML/CSS</p>
+              <p class="card-description">
+                I've been using HTML/CSS for the past few months as well. The
+                biggest project I have created thus far is the omnifood project,
+                using CSS grid, flexbox and other tools to make my page
+                responsive such as media queries for popular screen sizes. This
+                website was also created by myself using HTML/CSS. I am
+                continuing to learn HTML and CSS as I am fairly new to it,
+                inorder to learn new tips and tricks to make myself a better
+                programmer.
+              </p>
+            </div>
+            <div class="card-box">
+              <span>
+                <ion-icon class="icon" name="logo-react"></ion-icon>
+              </span>
+              <p class="card-title">React</p>
+              <p class="card-description">
+                I am currently learning the fundamentals of React and getting
+                myself familiar with the framework. I am enjoying the learning
+                process and look forward to updating my portfolio page whenever
+                I have created some projects with React!
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-about" id="about">
+        <div class="container">
+          <h2 class="heading-secondary">About Me</h2>
+        </div>
+        <div class="about container flex">
+          <div class="about-text-box">
+            <p class="about-text">
+              Hi! My name is Patrick and I'm a self taught developer from
+              Houston, TX. I recently graduated from nursing school, but have
+              spent the last few months learning how to code to become a
+              front-end developer. For the past 6 months I have been studying
+              JavaScript, HTML, CSS on Udemy using
+              <a
+                href="https://www.udemy.com/user/jonasschmedtmann/"
+                class="work-link"
+                target="_blank"
+                >Jonas Schmedtmann's</a
+              >
+              courses. I have received certificates for the completion of those
+              courses, and now I am focusing on learning React. While learning
+              React on the side I'm also enrolled in the Jr Web Development
+              Program that is free and provided by
+              <a
+                class="work-link"
+                href="https://usa.generation.org/"
+                target="_blank"
+                >Generation</a
+              >. If you are in search for a web developer please do not hesitate
+              to reach out!
+            </p>
+          </div>
+          <div class="about-img-box">
+            <img
+              class="about-img"
+              src="img/IMG_4060 (2).jpg"
+              alt="Photo of myself"
+            />
+          </div>
+        </div>
+      </section>
+      <section class="section-contact" id="contact">
+        <div class="container">
+          <h2 class="heading-secondary">Contact</h2>
+        </div>
+
+        <div class="contact">
+          <form id="contact-form" class="contact-form" name="contact" netlify>
+            <div>
+              <label for="first-name">First Name: </label>
+              <input
+                id="full-name"
+                type="text"
+                placeholder="John"
+                name="first-name"
+                required
+              />
+            </div>
+
+            <div>
+              <label for="last-name">Last Name: </label>
+              <input
+                id="last-name"
+                type="text"
+                placeholder="Doe"
+                name="last-name"
+                required
+              />
+            </div>
+
+            <div>
+              <label for="email">Email address: </label>
+              <input
+                id="email"
+                type="email"
+                placeholder="example@gmail.com"
+                name="email"
+                required
+              />
+            </div>
+
+            <div>
+              <label for="company">Company(optional): </label>
+              <input
+                id="company"
+                type="text"
+                placeholder="Company"
+                name="company"
+              />
+            </div>
+
+            <div>
+              <label for="phone">Phone number(optional): </label>
+              <input
+                id="phone"
+                type="tel"
+                placeholder="123-456-7890"
+                name="phone"
+              />
+            </div>
+            <button id="submit" class="submit" type="submit">Submit</button>
+
+            <div class="contact-message">
+              <label for="message">Message (optional): </label>
+              <!-- <input id="message" type="text" name="message" required /> -->
+              <textarea
+                class="textarea"
+                cols="100"
+                rows="8"
+                placeholder="Add your message here!"
+                id="message"
+                type="text"
+                name="message"
+              ></textarea>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
