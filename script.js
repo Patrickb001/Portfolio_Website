@@ -76,6 +76,8 @@ function clearForm() {
   submitForm[2].value = "";
   submitForm[3].value = "";
   submitForm[4].value = "";
+  submitForm[5].value = "";
+  submitForm[6].value = "";
 }
 
 submitForm.addEventListener("submit", (e) => {
