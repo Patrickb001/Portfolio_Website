@@ -68,17 +68,19 @@ allLinks.forEach(function (link) {
   });
 });
 
-const submitForm = document.getElementById("contact-form");
+// const submitForm = document.getElementById("contact-form");
 
-function clearForm() {
-  submitForm[0].value = "";
-  submitForm[1].value = "";
-  submitForm[2].value = "";
-  submitForm[3].value = "";
-  submitForm[4].value = "";
-}
+// function clearForm() {
+//   submitForm[0].value = "";
+//   submitForm[1].value = "";
+//   submitForm[2].value = "";
+//   submitForm[3].value = "";
+//   submitForm[4].value = "";
+//   submitForm[5].value = "";
+//   submitForm[6].value = "";
+// }
 
-submitForm.addEventListener("submit", (e) => {
-  e.preventDefault();
-  clearForm();
-});
+// submitForm.addEventListener("submit", (e) => {
+//   // e.preventDefault();`
+//   clearForm();
+// });
